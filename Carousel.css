@@ -1,4 +1,4 @@
-.nav {
+    .nav {
     position: fixed;
     top: 0px;
     left: 0px;
@@ -12,18 +12,19 @@
     background: -moz-linear-gradient(top, #c3c3c3, #ccc);
     background: #ccc;
 }
-.nav-contain
-.nav-items {
+
+.nav-contain .nav-items {
     float: left;
     margin: 0;
     padding: 0;
-
 }
-.nav-right{
+
+.nav-right {
     float: right;
     margin: 0;
     padding: 0;
 }
+
 .nav-item {
     display: inline-block;
 }
@@ -52,58 +53,55 @@
     .nav-contain {
         margin: 0 10%;
     }
-
-.carousel-contain{
-    position: relative;
-    height: 400px;
-    border: 1px solid #eee;
 }
-.carousel-indexs{
+    .carousel-contain {
+        position: relative;
+        height: 400px;
+        border: 1px solid #eee;
+    }
+    .carousel-indexs {
         opacity: 0.5;
-}
-.carousel-indexs:hover{
-    opacity: 1;
-}
-.carousel-indexs-right{
-    position: absolute;
-    right: 1rem;
-    bottom: 0.5rem;
-
-}
-
-.carousel-index{
-    display: block;
-    float: left;
-    height: 2rem;
-    width: 2rem;
-    line-height: 2rem;
-    border:1px solid #ccc;
-    text-align: center; 
-    margin-left:2px;
-    text-decoration: none;
-    color:#989898;
-    background: #e5e5e5;
-    transform: skewX(-30deg);
-
-}
-.carousel-index:active{
-   background: #333;
-   color: #e5e5e5;
-}
-.carousel-index-active{
-   background: #333;
-   color: #e5e5e5;
-}
-.carousel-items{
-    width: 100%;
-    height: inherit;
-    overflow: hidden;
-}
-.carosel-item{
-    width: 100%;
-    height: inherit;
-}
-.carousel-image{
-    width: inherit;
-    height: inherit;
-}
+    }
+    .carousel-indexs:hover {
+        opacity: 1;
+    }
+    .carousel-indexs-right {
+        position: absolute;
+        right: 1rem;
+        bottom: 0.5rem;
+    }
+    .carousel-index {
+        display: block;
+        float: left;
+        height: 2rem;
+        width: 2rem;
+        line-height: 2rem;
+        border: 1px solid #ccc;
+        text-align: center;
+        margin-left: 2px;
+        text-decoration: none;
+        color: #989898;
+        background: #e5e5e5;
+        transform: skewX(-30deg);
+    }
+    .carousel-index:active {
+        background: #333;
+        color: #e5e5e5;
+    }
+    .carousel-index-active {
+        background: #333;
+        color: #e5e5e5;
+    }
+    .carousel-items {
+        width: 100%;
+        height: inherit;
+        overflow: hidden;
+    }
+    .carosel-item {
+        width: 100%;
+        height: inherit;
+    }
+    .carousel-image {
+        width: inherit;
+        height: inherit;
+    }

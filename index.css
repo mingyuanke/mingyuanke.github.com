@@ -1,0 +1,7 @@
+@media screen and (max-width: 750px) {}
+
+@media screen and (min-width: 780px) {
+    .text-body {
+        margin: 0 10%;
+    }
+}
