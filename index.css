@@ -1,12 +1,149 @@
-body, html {
+body, html, div {
     margin: 0;
     padding: 0;
 }
 
-@media screen and (max-width: 750px) {}
+.info-name {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 48px;
+    line-height: 5rem;
+    text-align: center;
+    font-weight: bold;
+}
 
-@media screen and (min-width: 780px) {
+.profile-info {
+    height: 400px;
+}
+
+.info-name span {
+    margin: 0 0.5rem;
+}
+
+.info-table {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid #eee;
+}
+
+.info-tip {
+    text-align: right;
+    margin: 0 1rem 1rem 0;
+}
+
+.info-table tr td:nth-of-type(1) {
+    text-align: justify;
+    text-align-last: justify;
+}
+
+.info-table tr td:nth-of-type(2) {
+    padding-left: 1rem;
+}
+
+.info-table tr {
+    height: 2rem;
+}
+
+.info-table tr td {
+    overflow: hidden;
+}
+
+.info-table tr:nth-of-type(odd) {
+    background: #ccc;
+}
+
+@media screen and (max-width: 1259px) {
+    .info-table {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1260px) {
     .text-body {
         margin: 0 10%;
     }
+    .carousel-contain {
+        float: left;
+        width: 70%;
+    }
+    .profile-info {
+        float: left;
+        width: 30%;
+        margin-left: -1px;
+    }
+}
+.text-time {
+        width: 100%;
+    }
+@media screen and (min-width: 1550px) {
+    .info-table tr td:nth-of-type(1) {
+        padding: 0 1rem 0 2rem;
+        width: 42%;
+    }
+    .info-table {
+        width: 90%;
+    }
+    .text-time {
+        width: 20%;
+    }
+}
+
+.text-time {
+    float: left;
+    padding-top: 1rem;
+}
+
+.calendar-alt {
+    border-bottom: 2px solid #ddd;
+}
+
+.calendar-des {
+    display: inline-block;
+    width: 4rem;
+    background: #eef;
+    line-height: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    transform: skewX(-30deg);
+    margin-left: 0.5rem;
+}
+
+.calendar-en {
+    display: inline-block;
+    width: 50%;
+    margin-left: 5%;
+    text-align: justify;
+    text-align-last: justify;
+    font-style: italic;
+    background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(0, 128, 0, 1)), to(rgba(255, 51, 51, 1)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.time-picker-table {
+    width: 100%;
+}
+
+.time-picker-table td {
+    width: 14%;
+    text-align: center;
+    line-height: 2rem;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.time-picker-table tbody td:hover{
+    background: #ccc;
+}
+.time-picker-table .last-month, .time-picker-table .next-month {
+    color: #ccc;
+}
+.time-picker-table .today {
+    background: #eee;
+    color: #f55;
+}
+.time-show{
+    font-family: '微软雅黑';
+    font-size: 20px;
+    line-height: 2rem;
 }

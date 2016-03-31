@@ -46,9 +46,9 @@
     background: -moz-linear-gradient(top, #c3c3c3, #999);
 }
 
-@media screen and (max-width: 750px) {}
+@media screen and (max-width: 1259px) {}
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 1260px) {
     .nav-contain {
         margin: 0 10%;
     }
@@ -57,6 +57,7 @@
         position: relative;
         height: 400px;
         border: 1px solid #eee;
+        box-sizing: border-box;
     }
     .carousel-indexs {
         opacity: 0.5;
