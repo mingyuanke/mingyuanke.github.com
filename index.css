@@ -73,9 +73,11 @@ body, html, div {
         margin-left: -1px;
     }
 }
+
 .text-time {
-        width: 100%;
-    }
+    width: 100%;
+}
+
 @media screen and (min-width: 1550px) {
     .info-table tr td:nth-of-type(1) {
         padding: 0 1rem 0 2rem;
@@ -132,17 +134,21 @@ body, html, div {
     border-radius: 2px;
     cursor: pointer;
 }
-.time-picker-table tbody td:hover{
+
+.time-picker-table tbody td:hover {
     background: #ccc;
 }
+
 .time-picker-table .last-month, .time-picker-table .next-month {
     color: #ccc;
 }
+
 .time-picker-table .today {
     background: #eee;
     color: #f55;
 }
-.time-show{
+
+.time-show {
     font-family: '微软雅黑';
     font-size: 20px;
     line-height: 2rem;
