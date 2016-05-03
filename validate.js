@@ -7,8 +7,8 @@
         //ticket:kgt8ON7yVITDhtdwci0qeaC-i0Ht508JTTmVYTF3yF43ZkvreBAU4-m39Byf3TxGAUEuvxiMP0ejzvzyQ-R-bw
         timestamp: 1462257847,
         nonceStr: '74r2kj8oao3knac',
-        signture: '8b4a73945ec613757f41c640892875a1ca3f460f',
-        url:"http://mingyuanke.github.io",
+        signture: 'def6dcff4bd9e670aec823448df8ce90537a1bfc',
+        url:"http://mingyuanke.github.io/",
         jsApiList: [
             'scanQRCode'
         ]
